@@ -1,9 +1,11 @@
 {
   "name": "alpine-inline-babel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run Babel on inline Alpine.js directive code",
   "main": "alpine-inline-babel.js",
-  "files": ["alpine-inline-babel.js"],
+  "files": [
+    "alpine-inline-babel.js"
+  ],
   "scripts": {
     "test": "uvu -r esm tests",
     "lint": "xo .",

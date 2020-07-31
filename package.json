@@ -1,16 +1,31 @@
 {
-  "private": true,
+  "name": "alpine-inline-babel",
+  "version": "0.0.0",
+  "description": "Run Babel on inline Alpine.js directive code",
+  "main": "alpine-inline-babel.js",
   "scripts": {
+    "test": "uvu -r esm tests",
     "lint": "xo .",
-    "format": "xo . --fix"
+    "fmt": "xo . --fix"
   },
   "devDependencies": {
-    "xo": "latest"
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "esm": "^3.2.25",
+    "posthtml": "^0.13.1",
+    "uvu": "^0.3.0",
+    "xo": "^0.32.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7"
   },
   "xo": {
     "prettier": true,
     "space": true,
     "globals": []
   },
+  "keywords": [],
+  "author": "Hugo Di Francesco",
   "license": "MIT"
 }

@@ -1,3 +1,7 @@
+# Alpine.js Inline Babel
+
+Run Babel on inline Alpine.js directive code.
+
 ## Requirements
 
 - Node 10
@@ -12,8 +16,9 @@
 
 > Equivalent `npm run <script>` should also work
 
+- `yarn test` will run tests with uvu
 - `yarn lint` will lint all of the files with [xo](https://github.com/xojs/xo)
-- `yarn format` will run lint with `--fix` option on all the examples files (and tests).
+- `yarn fmt` will run lint with `--fix` option on all the examples files (and tests).
 
 ## LICENSE
 

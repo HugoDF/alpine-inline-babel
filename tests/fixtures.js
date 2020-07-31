@@ -7,9 +7,20 @@ export const showHide = `<div x-data="{ show: false }">
   </div>
 </div>`;
 
-export const arrowFuncs = `<div
+export const arrowFuncNoThis = `<div
   x-data="{ show: false }"
   x-init="$watch('show', (val) => console.log(val))"
+>
+  <button x-on:click="show = !show">
+    Toggle
+  </button>
+</div>`;
+
+export const arrowFuncThis = `<div
+  x-data="{ show: false }"
+  x-init="$nextTick(() => {
+    this.show = true;
+  })"
 >
   <button x-on:click="show = !show">
     Toggle

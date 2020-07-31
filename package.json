@@ -3,15 +3,18 @@
   "version": "0.0.0",
   "description": "Run Babel on inline Alpine.js directive code",
   "main": "alpine-inline-babel.js",
+  "files": ["alpine-inline-babel.js"],
   "scripts": {
     "test": "uvu -r esm tests",
     "lint": "xo .",
-    "fmt": "xo . --fix"
+    "fmt": "xo . --fix",
+    "release": "np"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "esm": "^3.2.25",
+    "np": "^6.3.2",
     "posthtml": "^0.13.1",
     "uvu": "^0.3.0",
     "xo": "^0.32.1"
@@ -26,6 +29,9 @@
     "globals": []
   },
   "keywords": [],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "Hugo Di Francesco",
   "license": "MIT"
 }

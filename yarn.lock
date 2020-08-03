@@ -3643,10 +3643,10 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kleur@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.0.2.tgz#57b36cc5235601f824c33e6e45db10cd5493dbf5"
-  integrity sha512-FGCCxczbrZuF5CtMeO0xfnjhzkVZSXfcWK90IPLucDWZwskrpYN7pmRIgvd8muU0mrPrzy4A2RBGuwCjLHI+nw==
+kleur@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.0.3.tgz#c66f27b804dfb89f804de5f44290c9001979e685"
+  integrity sha512-s84+52u0qkMmOI+eFJSxOCS/2Xt4j2A7Uacg8j+Ja1uFrED2zV3bILKtdAmpJCER4ufTej7p1OwuHbUz5ZVUyg==
 
 latest-version@^5.0.0:
   version "5.1.0"
@@ -5790,13 +5790,13 @@ util@^0.11.0:
     inherits "2.0.3"
 
 uvu@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.3.0.tgz#c6be86a0fe50d812ed74e4a1ebb4faf7f314ceb6"
-  integrity sha512-N9yQwZqZCHsC/hGsZJG7lu/+qv+MjDNVS6MuxhnDqk6p/IWWm4Pjch4w+oMqDlIk6cjf+wMPMAhdnHVGRM+4+g==
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.3.1.tgz#38957ffb176180705a5943ae094cfca8df3b18ff"
+  integrity sha512-N1lpO22pAbXbSNZgrtjjTwVyBsSPwXVaOHBzhj/X8i2OrbFGD0p91QBQUlIMC79V2KVcA7+a3lGTG74LSirEiQ==
   dependencies:
     dequal "^1.0.0"
     diff "^4.0.2"
-    kleur "^4.0.0"
+    kleur "^4.0.3"
     sade "^1.7.3"
     totalist "^1.1.0"
 

@@ -19,7 +19,7 @@
     "np": "^7.0.0",
     "posthtml": "^0.15.0",
     "uvu": "^0.5.1",
-    "xo": "^0.36.1"
+    "xo": "^0.39.1"
   },
   "peerDependencies": {
     "@babel/core": "^7",
